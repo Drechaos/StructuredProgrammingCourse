@@ -13,5 +13,6 @@ int findCube(int value){
 int main(){
     int result = findCube();
     cout << "Result of finding the cube of 3: " << result << endl;
+    //system('pause');
     return 0;
 }
