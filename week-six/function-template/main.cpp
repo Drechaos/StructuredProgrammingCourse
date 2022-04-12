@@ -12,8 +12,11 @@ int findCube(int value){
 }
 
 int main(){
-    int result = findCube(3);
-    cout << "Result of finding the cube of 3: " << result << endl;
+    int value;
+    cout << "Enter a value: ";
+    cin >> value;
+    int result = findCube(value);
+    cout << "Result of finding the cube of " << value << " is: " << result << endl;
     //system('pause');
     return 0;
 }
