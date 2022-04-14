@@ -12,6 +12,6 @@ int main(){
             cout << i << " is odd."  << endl;
         }
     }
-    
+    //system('pause');
     return 0;
 }
