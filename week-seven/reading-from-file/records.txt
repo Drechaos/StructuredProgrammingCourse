@@ -1,2 +1,3 @@
 100 Mary Jane 300000
 101 John Wayne 300000
+102 Gary Fisher 400000
