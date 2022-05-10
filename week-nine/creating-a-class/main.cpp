@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 // Class definition is completed outside 
 // and above the main function.
@@ -9,7 +8,6 @@ class Rectangle{
     private:
         float _length;
         float _width;
-    
     // The word public signifies that the method
     // can be accessed outside the class.
     public:
@@ -44,8 +42,22 @@ int main(){
     // named rectangle passing 
     // parameters 10 and 20 representing
     // the width and length
-    Rectangle rectangle(10, 20);
-    cout << r.area() << endl;
-    cout << r.perimeter() << endl;
+    // User input
+    float length;
+    float width;
+    int choice;
+    cout << "Enter length: ";
+    cin >> length;
+    cout << "\nEnter width: ";
+    cin >> width;
+    cout << "Enter 1 to calculate area, Enter 2 to calculate perimeter: ";
+    cin >> choice;
+    Rectangle rectangle(length, width);
+    if(choice == 1){
+        cout << "The area is: " << rectangle.area() << endl;
+    }else if(choice == 2){
+        cout << "The perimeter is: " << rectangle.perimeter() << endl;
+    }
+    //system("pause");
     return 0;
 }
