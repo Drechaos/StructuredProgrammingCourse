@@ -29,8 +29,12 @@ class Rectangle{
 
         float perimeter(){
             float result;
+            // Dealing with the case
+            // that the object is a rectangle
             if(_length > 0 && _width > 0){
                 result = 2*(_length + _width);
+            // Dealing with the case
+            // that the object is a square
             }else{
                 result = 4 * _side;
             }
