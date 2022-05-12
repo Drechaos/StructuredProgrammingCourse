@@ -77,6 +77,7 @@ public:
 
 int main() {
     Queue queue;
+    Queue q;
     queue.enqueue(100);
     queue.enqueue(200);
     queue.enqueue(300);
